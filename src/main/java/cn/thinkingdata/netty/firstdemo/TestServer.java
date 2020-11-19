@@ -10,7 +10,7 @@ public class TestServer {
 
     public static void main(String[] args) throws InterruptedException {
 
-        //事件按循环组
+        //事件循环组
         EventLoopGroup boosGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
         try {
