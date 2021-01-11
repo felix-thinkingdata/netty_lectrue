@@ -1,4 +1,4 @@
-package cn.thinkingdata.netty.seconddemo;
+package cn.thinkingdata.netty.netty_07_video_seconddemo;
 
 import java.util.UUID;
 

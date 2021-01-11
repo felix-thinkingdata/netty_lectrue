@@ -1,4 +1,4 @@
-package cn.thinkingdata.netty.firstdemo;
+package cn.thinkingdata.netty.netty_05_video_firstdemo;
 
 import java.net.URI;
 

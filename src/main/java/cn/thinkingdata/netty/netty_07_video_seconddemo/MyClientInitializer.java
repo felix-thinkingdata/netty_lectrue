@@ -1,4 +1,4 @@
-package cn.thinkingdata.netty.seconddemo;
+package cn.thinkingdata.netty.netty_07_video_seconddemo;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;

@@ -1,4 +1,4 @@
-package cn.thinkingdata.netty.firstdemo;
+package cn.thinkingdata.netty.netty_05_video_firstdemo;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -18,10 +18,8 @@ public class TestServer {
             ServerBootstrap serverBootstrap = new ServerBootstrap();
             serverBootstrap.group(workerGroup, workerGroup).channel(NioServerSocketChannel.class)
                     .childHandler(new TestServerInitialzer());
-
             ChannelFuture channelFuture = serverBootstrap.bind(8899).sync();
             channelFuture.channel().closeFuture().sync();
-
         } finally {
             boosGroup.shutdownGracefully();
             workerGroup.shutdownGracefully();

@@ -1,4 +1,4 @@
-package cn.thinkingdata.netty.thirddemo;
+package cn.thinkingdata.netty.netty_08_video_thirddemo;
 
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;

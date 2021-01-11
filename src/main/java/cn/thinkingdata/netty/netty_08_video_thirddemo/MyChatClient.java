@@ -1,9 +1,8 @@
-package cn.thinkingdata.netty.thirddemo;
+package cn.thinkingdata.netty.netty_08_video_thirddemo;
 
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
 
 import io.netty.bootstrap.Bootstrap;
